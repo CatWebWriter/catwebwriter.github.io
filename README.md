@@ -19,9 +19,20 @@ This also allows AI to be trained to help in making CatVB code much easier, as i
 CatVB has basically only one data type as of 0.1.0 (String), but more CatVB features will be added that can expand this. Variables are not considered
 data types since CatWeb does the variable identification.
 
-#### OPERATORS
+You can pass data without a data type declaration for now, (like "" for strings), but "" is reccomended to include spaces.
 
-Coming soon!
+#### OPERATORS AND STATEMENTS
+
+Operators and statements allow for easy identification, logic and calculation.
+
+Note that statements end with a colon like this:
+
+```
+when websiteloaded:
+```
+
+**when** - Used to recieve events
+**end** - Used to end a statement.
 
 #### COMMENTS
 
@@ -34,3 +45,18 @@ Coming soon!
 These functions allow you to send output to the console.
 
 **log (any)** Prints the output to the console.
+```
+when websiteloaded:
+    log "Hello World"
+end
+```
+
+#### EVENTS
+
+Events allow you to recieve calls or events from the engine or system like button presses and more.
+
+**websiteloaded** - The code inside is executed if the website is loaded.
+```
+when websiteloaded:
+end
+```
