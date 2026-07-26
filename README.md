@@ -16,10 +16,31 @@ This also allows AI to be trained to help in making CatVB code much easier, as i
 ### II. BASIC SYNTAX
 #### DATA TYPES
 
-CatVB has basically only one data type as of 0.1.0 (String), but more CatVB features will be added that can expand this. Variables are not considered
-data types since CatWeb does the variable identification.
+CatVB has 3 fundamental data types as of 0.1.1 (String, Number, Variable), but more CatVB features will be added that can expand this. 
 
-You can pass data without a data type declaration for now, (like "" for strings), but "" is reccomended to include spaces.
+**Strings** - Holds raw text. Can be identified by double quotes around the text "
+
+**Numbers** - Holds numbers
+
+**Variables** - Holds a variable.
+
+#### VARIABLES
+
+Variables is a data type that holds a variable. Variables are containers that contain data. The variable name is an identifier to
+identify the data from RAM.
+
+Variables can be defined by the "set" function:
+
+set (variable name) = (variable data)
+
+Examples:
+
+```
+set myVar = 5
+```
+```
+set myVar = "String"
+```
 
 #### OPERATORS AND STATEMENTS
 
@@ -32,6 +53,7 @@ when websiteloaded:
 ```
 
 **when** - Used to recieve events
+
 **end** - Used to end a statement.
 
 #### COMMENTS
@@ -46,9 +68,7 @@ These functions allow you to send output to the console.
 
 **log (any)** Prints the output to the console.
 ```
-when websiteloaded:
-    log "Hello World"
-end
+log "Hello World"
 ```
 
 #### EVENTS
