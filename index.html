@@ -8,13 +8,15 @@
   <script type="module" src="scripts/example.js" defer></script>
 </head>
 <body>
-    <h1>Custom Programming Language</h1>
+  <div class="topbar">
+    <h1 id="mainh1">CatVB Compiler</h1>
+    <button id="codesubmit">Transpile code</button>
+    <button id="changealias">Change script alias</button>
+  </div>
   <br>
     <label for="message">Code:</label>
   <br>
     <textarea id="message" name="message" rows="20" cols="50" placeholder="Type your code here..."></textarea>
-  <br>
-    <button id="codesubmit">Submit code</button>
   <br>
   <textarea id="console" name="message" rows="5" cols="50" placeholder="Console"></textarea>
   <br>
