@@ -1,0 +1,3 @@
+textarea {
+  resize: vertical;  /* Allows resizing only vertically (prevents broken layouts) */
+}
