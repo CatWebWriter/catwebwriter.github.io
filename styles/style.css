@@ -1,3 +1,16 @@
+body {
+  background-color: black
+}
 textarea {
   resize: vertical;  /* Allows resizing only vertically (prevents broken layouts) */
+  width: 100%;
+}
+
+.topbar {
+  width: 100%;
+  background-color: gray;
+}
+
+#mainh1 {
+  color: antiquewhite;
 }
