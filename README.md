@@ -3,6 +3,7 @@
 Transpiling Lua/Python like code into CatWeb JSON!
 
 To use this, you now have to go to https://CatwebWriter.github.io/
+Never been easier!
 
 ## Documentation
 
@@ -12,6 +13,8 @@ This language was created for a Roblox game called [CatWeb](https://www.roblox.c
 I made a new language, CatVB (Catweb Visual Basic). Like Visual Basic which made programming software in Windows much easier, CatVB makes programming sites in CatWeb much easier.
 
 This also allows AI to be trained to help in making CatVB code much easier, as instead of block or JSON based coding, it is now text based.
+
+Best thing of all, it is **COMPLETELY FREE!** No paywalls just to improve code.
 
 ### II. BASIC SYNTAX
 #### DATA TYPES
